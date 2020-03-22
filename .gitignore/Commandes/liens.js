@@ -9,16 +9,22 @@ module.exports.run = (bot, message, args) => {
         )
 
         .addField("**GitHub**",
-            [Cliquez-ici](https://github.com/Sarinku)
+            "[Cliquez-ici](https://github.com/Sarinku)\n",
         )
 
-        .addField("*Voudriez-vous héberger un de vos fichiers ?*",
-            "Grâce à nos services, vous pouvez héberger un fichier de votre choix soit en payant (les prix sont très bas) ou en invitant vos amis et des gens intéressés !"
+        .addField("**TouTube | Discord",
+            "[Chaîne YouTube](https://www.youtube.com/channel/UCcklO754DiV1pZFe6N5wSEw?view_as=subscriber)\n"+
+            "[✩ ΛsтєгDєѵ『</>』](https://discord.gg/QFyc8WE)\n"+
+            "[La Liste Noire v2](https://discord.gg/nvFEcJB)\n",
         )
 
-        .addField("Comment nous rejoindre ?",
-            "[Cliquez-ici](https://discord.gg/QFyc8WE)"
+        .addField("Page Facebook",
+            "[Cliquez-ici](https://www.facebook.com/Sir-Link-Dev-436656903521898/)\n",
         )
+    
+        .addField("Twitter",
+            "[Cliquez-ici](https://twitter.com/_SirLink)\n",        
+         )
 
         .setThumbnail(sirIcon)
         .setColor('#40A497')
