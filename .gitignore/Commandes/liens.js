@@ -20,12 +20,12 @@ module.exports.run = (bot, message, args) => {
             "[Cliquez-ici](https://discord.gg/QFyc8WE)"
         )
 
-        .setThumbnail(asterIcon)
+        .setThumbnail(sirIcon)
         .setColor('#40A497')
         .setFooter(`Demandé par ${message.author.username} | Fait par Sir Link`, message.author.avatarURL);
 
     message.delete()
-    return message.channel.send(asterEmbed);
+    return message.channel.send(lienEmbed);
 };
 
 module.exports.help = {
