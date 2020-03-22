@@ -1,15 +1,15 @@
 const Discord = require('discord.js');
 
 module.exports.run = (bot, message, args) => {
-    let asterIcon = ('https://cdn.discordapp.com/attachments/690969558143598602/690998594714599515/image0.png');
+    let sirIcon = ('https://cdn.discordapp.com/attachments/597186173118447617/691056748819382332/73be86b7f727d91effb3405bc20540b3.jpg');
 
-    let asterEmbed = new Discord.RichEmbed()
-        .addField("__**ΛsтєгDєѵ :**__",
-            "Viens jeter un coup d'oeil 😉"
+    let liensEmbed = new Discord.RichEmbed()
+        .addField("__**Quelques liens utiles :**__",
+            "Retrouvez les liens utiles de Sir Link !"
         )
 
-        .addField("*Voudriez-vous un bot unique adapté pour votre serveur ?*",
-            "Grâce à nos services, vous pourrez avoir un magnifique bot Discord soit en payant (les prix sont très bas) ou en invitant vos amis et des gens intéressés !"
+        .addField("**GitHub**",
+            [Cliquez-ici](https://github.com/Sarinku)
         )
 
         .addField("*Voudriez-vous héberger un de vos fichiers ?*",
@@ -29,5 +29,5 @@ module.exports.run = (bot, message, args) => {
 };
 
 module.exports.help = {
-    name: 'aster'
+    name: 'liens'
 };
