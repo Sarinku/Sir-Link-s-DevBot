@@ -31,7 +31,7 @@ module.exports.run = (bot, message, args) => {
         .setFooter(`Demandé par ${message.author.username} | Fait par Sir Link`, message.author.avatarURL);
 
     message.delete()
-    return message.channel.send(lienEmbed);
+    return message.channel.send(liensEmbed);
 };
 
 module.exports.help = {
