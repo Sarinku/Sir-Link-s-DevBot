@@ -11,7 +11,8 @@ module.exports.run = async (bot, message, args) => {
         .addField("__**Commandes**__",
             "`/ping` : Affiche la latence du bot !\n"+
             "`/liens` : Affiche différents liens utiles pour Paladium !\n"+
-            "`/aster` : Affiche une pub de ΛsтєгDєѵ !\n",        
+            "`/aster` : Affiche une pub de ΛsтєгDєѵ !\n"+
+            "`/suggestion` : Permet de réaliser une suggestion !\n",
         )
 
         .setFooter(`Fait par Sir Link | Demandé par ${message.author.username}`, message.author.avatarURL)
